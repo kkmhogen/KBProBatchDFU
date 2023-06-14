@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
+
+    <TextView
+        android:id="@+id/dfu_mac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/beacon_mac"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dfu_result_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/dfu_result"
+        android:layout_marginEnd="3dp"
+        app:layout_constraintEnd_toStartOf="@+id/dfu_result"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dfu_result"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/dfu_model_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/beacon_model"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dfu_mac" />
+
+    <TextView
+        android:id="@+id/dfu_model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        app:layout_constraintStart_toEndOf="@+id/dfu_model_title"
+        app:layout_constraintTop_toTopOf="@+id/dfu_model_title" />
+
+    <TextView
+        android:id="@+id/dfu_ver_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="@string/beacon_version"
+        app:layout_constraintEnd_toStartOf="@+id/dfu_dest_ver_title"
+        app:layout_constraintStart_toEndOf="@+id/dfu_model"
+        app:layout_constraintTop_toTopOf="@+id/dfu_model" />
+
+    <TextView
+        android:id="@+id/dfu_ver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginStart="3dp"
+        app:layout_constraintStart_toEndOf="@+id/dfu_ver_title"
+        app:layout_constraintTop_toTopOf="@+id/dfu_ver_title" />
+
+    <TextView
+        android:id="@+id/dfu_dest_ver_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="@string/dfu_dest_version"
+        app:layout_constraintEnd_toStartOf="@+id/dfu_dest_ver"
+        app:layout_constraintTop_toBottomOf="@+id/dfu_result" />
+
+    <TextView
+        android:id="@+id/dfu_dest_ver"
+        android:layout_width="60dp"
+        android:layout_marginStart="3dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dfu_dest_ver_title" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

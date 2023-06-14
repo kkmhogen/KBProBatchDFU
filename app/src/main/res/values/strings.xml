@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="Dialog_Cancel">Cancel</string>
+    <string name="track_setting">Setting</string>
+
+    <string name="app_name">BatchDFU</string>
+    <string name="beacon_name">KBProBatchDFU</string>
+    <string name="beacon_list_view">Devices</string>
+    <string name="NB_network_file_not_json">Cloud server file format not valid</string>
+
+    <string name="ble_not_supported">Devices does not support ble4.0 </string>
+    <string name="ble_function_disable">Bluetooth function is not enable on phone.</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="connecting">Connecting</string>
+    <string name="disconnected">Disconnect</string>
+    <string name="unknown">Unknown</string>
+    <string name="BEACON_RSSI_Filter_title">Filter</string>
+
+
+
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="new_password_desc">New password</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+    <string name="device_is_not_connected">Device does not connected</string>
+
+    <!-- Menu items -->
+    <string name="menu_scan">Scan</string>
+    <string name="menu_remove">Remove</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_dfu_list">DFU List</string>
+    <string name="menu_about">About</string>
+
+    <!--itrack desc-->
+    <string name="track_mac_address">FF:FF:FF:FF:FF:FF</string>
+    <string name="track_state">Status</string>
+    <string name="app_copy_right_declare">Copyright © 2017~2023 KKM. All Rights Reserved.</string>
+
+    <string name="track_setting_save">Save</string>
+
+    <string name="conn_status">Disconnected</string>
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+
+    <string name="Dialog_OK">OK</string>
+
+    <string name="conn_error_title">Connect Failed</string>
+    <string name="connect_error_timeout">Connect failed, please try it again. if it still failed, then reset Phone bluetooth and APP.</string>
+    <string name="ble_device_connecting">Connecting</string>
+    <string name="device_busy">Device is busy, please try again later</string>
+    <string name="auth_error_title">Authentication Failed, Please input password</string>
+    <string name="connect_error_auth_format">Password format error, please input 16 number ascii password..</string>
+    <string name="common_error_title">Error</string>
+    <string name="location_permit_for_ble_failed">Location permission not allowed, start ble scan failed.</string>
+    <string name="no_data_to_export">No data need to export</string>
+
+    <string name="bluetooth_error_need_reboot">Android OS Bluetooth error, please try to reboot bluetooth function(turn off bluetooth and turn on bluetooth). If it still failed, please try to reboot the phone.</string>
+
+    <string name="double_click_quit">Double click to quit app</string>
+    <string name="BEACON_FILTER_NAME">Filter name</string>
+    <string name="dfu_result">Result:</string>
+    <string name="BEACON_INVALID_VALUE">N/A</string>
+    <string name="RSSI_AT_1M">rssi@1m</string>
+    <string name="beacon_major">Major:</string>
+    <string name="beacon_minor">Minor:</string>
+    <string name="beacon_uuid">UUID:</string>
+    <string name="beacon_model">Model: </string>
+    <string name="beacon_version">Ver: </string>
+    <string name="dfu_dest_version">DFU Version: </string>
+    <string name="BEACON_FILTER_BEACON">Tap to edit filter</string>
+    <string name="BEACON_RSSI_UINT">dBm</string>
+    <string name="beacon_mac">Mac:</string>
+    <string name="battery">Battery:</string>
+    <string name="battery_uint">%</string>
+
+
+
+    <string name="dfu_history">History</string>
+    <string name="dfu_history_export">Export</string>
+    <string name="dfu_history_clear">Clear</string>
+
+    <string name="DEVICE_DFU_TITLE">Firmware Update</string>
+    <string name="DEVICE_DFU_STATUS">Status</string>
+    <string name="DEVICE_CHECK_UPDATE">Check version…</string>
+    <string name="DEVICE_LATEST_VERSION">Current version is the latest, not need update.</string>
+    <string name="DFU_CONNECT_SERVICE_FAIL">Connect to cloud server failed, please check if the network was connected and give the application network permission</string>
+
+    <string name="DFU_FOUND_NEW_VERSION">A new version(%s) found.</string>
+    <string name="UPDATE_STARTED">Updating…</string>
+    <string name="DFU_TITLE">Update</string>
+
+    <string name="UPDATE_CONNECTING">Connecting for update</string>
+    <string name="UPDATE_UPLOADING">Upload firmware…</string>
+    <string name="UPDATE_DISCONNECTED">Device disconnected!</string>
+    <string name="UPDATE_ABORTED">Update aborted!</string>
+    <string name="UPDATE_CONNECTED">Device connected</string>
+    <string name="UPDATE_COMPLETE">Update success!</string>
+    <string name="UPDATE_NETWORK_FAIL">Network failure!</string>
+    <string name="UPDATE_FOUND_NEW_VERSION">found new version</string>
+
+    <string name="nb_menu_item_check_ver">Firmware update</string>
+
+    <string name="NB_network_cloud_server_error">Cloud server error</string>
+
+    <string name="nb_menu_item_text">Update</string>
+    <string name="NB_network_file_not_exist">Cloud server file not exist</string>
+
+    <string name="UPDATE_RELEASE_NOTES">Release notes:</string>
+    <string name="UPDATE_NOT_FOUND_NEW_VERSION">Failed to obtain the latest version information, please ensure that the Internet connection is successful.</string>
+
+    <string name="DFU_VERSION_MAKE_SURE">To ensure a successful upgrade, it is recommended that the distance between the mobile phone and the KBeacon device be less than 3 meters. Are you sure you want to upgrade?</string>
+    <string name="copy_right_version">Copyright by KKM 2019~2020, version:%1$s</string>
+
+    <string name="app_about">About</string>
+
+</resources>
